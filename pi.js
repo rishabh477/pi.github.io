@@ -57,20 +57,13 @@ $(document).ready(function(){
     			}
 		})
         $(window).scroll(function(){ 
-            if ($(document).scrollTop() > 50){
-                $('.header .navbar').addClass("affix");
+            if ($(document).scrollTop() > 50 ){
+                $('.header .row').addClass("affix");
             }
             else{
-                $('.header .navbar').removeClass("affix");
-            };
-             $(document).on('click','a[href="#jump"]',function(e){
-                if(this.hash!==''){
-                e.preventDefault();
-                var hash=this.hash;
-            $('html','body').animate({scrollTop:0},1000,function(){
-                window.location.hash=hash;
-            });
-        }//end if
+                $('.header .row').removeClass("affix");
+            }
+
             });
         });
         
