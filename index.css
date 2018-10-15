@@ -60,6 +60,7 @@
 }
 .navbar-brand{
 	margin-top: 10px;
+	float:none;
     font-size: 35px;
     color: #17ca0d;
     font-weight: 600;
