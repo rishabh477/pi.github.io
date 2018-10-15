@@ -58,10 +58,10 @@ $(document).ready(function(){
 		});
         $(window).scroll(function(){ 
             if ($(document).scrollTop() > 50 ){
-                $('.header .row).addClass("affix");
+                $('.header .row').addClass("affix");
             }
             else{
-                $('.header .row).removeClass("affix");
+                $('.header .row').removeClass("affix");
             }
 
             });
