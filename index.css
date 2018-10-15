@@ -250,3 +250,14 @@ label{
 	color:#2a4748f7;
 	background-color: transparent; 
 }
+.end{
+	height: 30px;
+	background-color: black;
+	color:white;
+	text-align: center;
+	opacity: 0.8;
+}
+.end span{
+	display: block;
+	padding: 5px;
+}
