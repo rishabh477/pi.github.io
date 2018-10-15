@@ -2,6 +2,36 @@
 	margin: 0;
 	padding: 0;
 }
+@media screen and (max-width:768px){
+	.top1{display: none;}
+	.navbar{margin:0;}
+	.btn{margin:0;}
+	.col-lg-3 .btn1 .btn{margin-top: 0;}
+	.col-lg-3 .btn2 .btn{margin-top: 0;}
+	.col-lg-7 ul{margin-top: 0;}
+	.section3 .container .owl-carousel .owl-item img {width:auto;}
+	.foot{display: none;}
+	
+}
+@media screen and (max-width:992px){
+	.top2{text-align: center;}
+	.top2 span{display: none;}
+	.header .row{text-align: center;}
+	.footer-content{text-align: center;}
+	.footer-content .foothead{margin-left: 0;}
+	.footer-content .contact{margin-left: 0;display: block;}
+	.footer-content .list{margin-left: 0;}
+}
+@media screen and (max-width:1070px){
+	.col-lg-3 .btn1 .btn{display: block;}
+	.col-lg-3 .btn2 .btn{display: block;}
+}
+.logo img{vertical-align: baseline;}
+.navbar-toggle{
+	background-color: #2a4748f7;
+	float: none;
+}
+.navbar-toggle .icon-bar{background-color: white;}
 .top{
 	background-color: #2a4748f7;
     height: 50px;
