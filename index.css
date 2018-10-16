@@ -17,7 +17,7 @@
 	.footer-content .contact{margin-left: 0;display: block;}
 	.footer-content .list{margin-left: 0;}
 	.section3 .top2::before{border-top: 20px solid transparent;}
-	.navbar{margin-bottom: 0px;min-height: auto;}
+	.navbar{margin: 0px;min-height: auto;}
 	.col-lg-3 .btn1 .btn{margin-top: 0;margin-left:0;}
 	.col-lg-3 .btn2 .btn{margin-top: 0;}
 	.logo img{margin-top: 10px;}
@@ -29,6 +29,7 @@
 	.col-lg-3 .btn2 .btn{display: block;}
 	.col-lg-7 ul li a{padding:15 10px;}
 }
+.navbar{margin: 85px;}
 .navbar-toggle{
 	background-color: #2a4748f7;
 	float: none;
