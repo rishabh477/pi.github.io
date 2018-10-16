@@ -27,9 +27,9 @@
 @media screen and (max-width:1070px){
 	.col-lg-3 .btn1 .btn{display: block;margin-left:10px}
 	.col-lg-3 .btn2 .btn{display: block;}
-	.col-lg-7 ul li a{padding:15 10px;}
+	.col-lg-7 ul li a{padding:15px 10px;}
 }
-.navbar{margin: 85px;}
+.navbar{margin-left: 85px;}
 .navbar-toggle{
 	background-color: #2a4748f7;
 	float: none;
