@@ -70,9 +70,8 @@
     font-weight: 600;
     font-family: cursive;
 }
-
-.col-lg-7 ul{
-	margin-top: 25px;
+.navbar .navbar-nav{
+	margin-top: 20px;
 }
 .col-lg-7 ul li a{
 	color:black;
@@ -122,6 +121,9 @@
     margin-top: 16px;
     cursor: pointer;
     transition: 0.5s;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
 }
 /*------------------------modal---------------------------*/
 .modal-header .modal-title{
