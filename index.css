@@ -214,13 +214,13 @@ label{
 .top2::before{
 	content: '';
 	position: absolute;
-	top: 100%;
+	top: calc(76% + 2px);
 	left:50%;
 	transform: translate(-50% ,-50%);
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid white;
-	border-bottom: 20px solid transparent;
+	border-top: 20px solid transparent;
+    	border-bottom: 20px solid white;
 }
 .top2 span{
 	float: left;
